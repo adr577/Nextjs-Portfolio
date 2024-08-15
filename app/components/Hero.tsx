@@ -18,8 +18,8 @@ export const Hero = () => {
                     className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
                 >
                     <h1 className='text-5xl lg:text-7xl sm:text-5xl md:text-6xl font-extrabold mb-4'>
-                      <span className=" bg-clip-text text-transparent bg-gradient-to-r from-[#00F260] to-[#0575E6]">
-                            Hello, I'm{" "}
+                      <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#00F260] to-[#0575E6]">
+                            Hello, I&rsquo;m{" "}
                         </span>
                         <br></br>
                         <TypeAnimation
