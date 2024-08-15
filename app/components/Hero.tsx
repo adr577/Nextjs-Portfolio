@@ -7,10 +7,10 @@ import Image from "next/image"
 export const Hero = () => {
 
   return (
-        <section className = "hero sm:px-8 lg:py-16 min-h-screen md:px-16  flex flex-col justify-center items-center snap-start text-stone-200" >
+        <section className = "hero sm:px-8 lg:py-16  md:px-16  flex flex-col justify-center items-center snap-start text-stone-200 h-screen" >
 
 
-            <div className="grid grid-cols-1 sm:grid-cols-12">
+            <div className="grid grid-cols-1 sm:grid-cols-12 ">
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
@@ -44,12 +44,15 @@ export const Hero = () => {
 
                     <div className='text-stone-100'>
                         <motion.button
-                            whileHover={{ scale: 1.1 }}
+                          whileHover={{
+                              scale: 1.07,
+                              
+                          }}
                             whileTap={{ scale: 0.9 }}
-                          className='px-6 py-3 w-full sm:w-fit rounded-lg mr-4  bg-gradient-to-r from-[#00F260] to-[#0575E6] mb-3'>Projects
+                          className='px-7 py-4 w-full sm:w-fit rounded-lg mr-4  bg-gradient-to-r from-[#00F260] to-[#0575E6] mb-3 hover:rounded-lg'>Projects
                         </motion.button>
                       <motion.button
-                          whileHover={{ scale: 1.1 }}
+                          whileHover={{ scale: 1.07 }}
                           whileTap={{ scale: 0.9 }}
                           className="p-[3px] relative w-full sm:w-fit">
                           <div className="absolute inset-0 bg-gradient-to-r from-[#00F260] to-[#0575E6] rounded-lg" />
@@ -65,7 +68,7 @@ export const Hero = () => {
                     transition={{ duration: 0.5 }}
                     className="col-span-4 place-self-center mt-4 lg:mt-0"
                 >
-                    <div className='rounded-full bg-stone-900 w-[250px] h-[250px] lg:h-[400px] lg:w-[400px] relative '>
+                    <div className='rounded-full bg-stone-900 w-[300px] h-[300px] lg:h-[400px] lg:w-[400px] relative '>
                         <Image
                             src='/.png'
                             alt="hero image"

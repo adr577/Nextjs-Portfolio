@@ -12,6 +12,9 @@ const TAB_DATA = [
         content: (
             <ul className='list-disc pl-2'>
                 <li>React.js</li>
+                <li>Next.js</li>
+                <li>HTML/CSS</li>
+                <li>Tailwind</li>
                 <li>JavaScript</li>
                 <li>C++</li>
                 <li>Assembly</li>
@@ -41,6 +44,14 @@ const TAB_DATA = [
         content: (
             <ul className='list-disc pl-2'>
                 <li>BoS in Computer Science (2026)</li>
+                <li>
+                    <p className='font-bold mr-1'>Relevant coursework:</p>
+                    <span className='font-normal'>
+                        Data Structures, Advanced Programming(C++),
+                        Discrete math, Multivariable calculus, Linear algebra & diff equations, classical physics I & II 
+                    </span>
+
+                </li>
             </ul>
         )
     },
@@ -63,13 +74,13 @@ const AboutSection = () => {
 
     return (
         <section className="text-stone-200 mb-24">
-            <div className='md:grid md:grid-cols-2 gap-8  py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 rounded-lg '>
+            <div className='md:grid md:grid-cols-2 gap-8  py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 rounded-lg m-h-screen tex-center'>
                 <div className=''>
                     <Image src="/images/self-portrait.jpg"
                         alt="self"
                         width={256}
                         height={256}
-                        className='bg-slate-500 rounded-lg  m-auto w-full max-w-xs'
+                        className='bg-slate-500 rounded-lg  m-auto w-full max-w-xs transition-shadow duration-300 hover:shadow-[0_0_15px_5px_rgba(255,255,255,0.5)]'
                     />
 
                 </div>
@@ -77,9 +88,9 @@ const AboutSection = () => {
 
 
                 
-                <div className='mt-4 md:mt-0 text-left flex flex-col '>
-                    <p className='text-sm text-stone-500 mb-2 text-center md:text-left'>Get to know</p>
-                    <h2 className='text-4xl font-bold mb-4 text-center md:text-left'>About Me</h2>
+                <div className='mt-8 md:mt-0 text-left flex flex-col '>
+                    <p className='text-md lg:text-lg text-stone-500 mb-2 text-center md:text-left'>Get to know</p>
+                    <h2 className='text-4xl md:text-5xl font-bold mb-4 text-center md:text-left'>About Me</h2>
                     <p className='text-base lg:text-lg'>
                         I am a full time student with a passion for creating interactive and responsive web applications.
                         I have experience working with React, JavaScript, Node.js, Git, HTML, CSS. I am always looking for

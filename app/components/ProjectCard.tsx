@@ -37,13 +37,15 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({title, img, des, repo, 
                     rotateZ={-10}
                     className="w-full mt-4"
                 >
-                    <a href={repo} target="_blank"><Image
+                    <a href={repo} target="_blank">
+                        <Image
                         src={img}
                         height="500"
                         width="500"
                         className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl cursor-pointer"
                         alt="thumbnail"
-                    /></a>
+                        />
+                    </a>
                 </CardItem>
                 <div className="flex justify-between items-center mt-20">
                     <CardItem
