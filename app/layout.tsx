@@ -18,11 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
 
-      <body className={`${inter.className} bg-stone-950 `}>
+      <body className={`${inter.className} bg-stone-950 no-scrollbar `}>
         <Navbar />
-        <main className="min-h-screen flex-col flex p-2">
-          {children}
-        </main>
+        {children}
+       
       </body>
     </html>
   );

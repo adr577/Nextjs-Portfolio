@@ -7,13 +7,13 @@ import Navbar from './components/Navbar'
 export default function Home() {
   return (
     
-      <div className='container mx-auto px-12 py-4 '>
+    <main className='min-h-screen container mx-auto px-12 py-4 '>
         <Hero />
         <AboutSection />
         <ProjectsSection />
 
         
-      </div>
+      </main>
 
   
   

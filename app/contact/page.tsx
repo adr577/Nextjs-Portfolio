@@ -4,7 +4,7 @@ import ContactForm from "../components/ContactForm"
 
 const ContactPage = () => {
   return (
-      <section className='text-stone-100 '>
+      <section className='text-stone-100'>
           <ContactForm />
       </section>
   )

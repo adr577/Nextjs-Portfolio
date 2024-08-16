@@ -29,8 +29,8 @@ const TAB_DATA = [
         id: "experience",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Intern in Software Development</li>
-                <li>Undergrad student assistant</li>
+                <li>Intern in Software Development(Bay Valley Tech)</li>
+                <li>Undergrad student assistant(UC Merced)</li>
                 <li>Raleys Merced</li>
                 <li>Nasa space apps member</li>
 
@@ -73,10 +73,10 @@ const AboutSection = () => {
     }
 
     return (
-        <section className="text-stone-200 mb-24">
-            <div className='md:grid md:grid-cols-2 gap-8  py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 rounded-lg m-h-screen tex-center'>
+        <section className="text-stone-200 mb-24 ">
+            <div className='md:grid md:grid-cols-2 gap-8  py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 rounded-lg m-h-screen text-center'>
                 <div className=''>
-                    <Image src="/images/self-portrait.jpg"
+                    <Image src="/images/self-portrait2.jpg"
                         alt="self"
                         width={256}
                         height={256}
