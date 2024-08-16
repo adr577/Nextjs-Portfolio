@@ -28,6 +28,9 @@ const ProjectsSection = () => {
                           des={project.des}
                           repo={project.link}
                           icons={project.icons}
+                          src={project.src}
+                           
+                      
 
                       />
 

@@ -11,15 +11,12 @@ const TAB_DATA = [
         id: "skills",
         content: (
             <ul className='list-disc pl-2'>
-                <li>React.js</li>
-                <li>Next.js</li>
+                <li>React.js . Next.js</li>
                 <li>HTML/CSS</li>
                 <li>Tailwind</li>
                 <li>JavaScript</li>
                 <li>C++</li>
                 <li>Assembly</li>
-                <li>Data Structures</li>
-
             </ul>
         )
     },
@@ -30,7 +27,7 @@ const TAB_DATA = [
         content: (
             <ul className='list-disc pl-2'>
                 <li>Intern in Software Development(Bay Valley Tech)</li>
-                <li>Undergrad student assistant(UC Merced)</li>
+                <li>Undergrad student graphic designer(UC Merced)</li>
                 <li>Raleys Merced</li>
                 <li>Nasa space apps member</li>
 
@@ -92,8 +89,8 @@ const AboutSection = () => {
                     <p className='text-md lg:text-lg text-stone-500 mb-2 text-center md:text-left'>Get to know</p>
                     <h2 className='text-4xl md:text-5xl font-bold mb-4 text-center md:text-left'>About Me</h2>
                     <p className='text-base lg:text-lg'>
-                        I am a full time student with a passion for creating interactive and responsive web applications.
-                        I have experience working with React, JavaScript, Node.js, Git, HTML, CSS. I am always looking for
+                        I am a full time student with a passion for learning and exploring the world of programming.
+                        I have experience working with React, JavaScript, Node.js, C/MIPS, C++, HTML, CSS. I am always looking for
                         opportunities to expand my skills and knowledge. Also, I love working in team based projects.
                     </p>
                     <div className='flex flex-row mt-8'>

@@ -79,11 +79,11 @@ export const Hero = () => {
                 >
                     <div className='rounded-full bg-stone-900 w-[300px] h-[300px] lg:h-[400px] lg:w-[400px] relative hidden sm:block'>
                         <Image
-                            src='/.png'
+                            src='/images/file.png'
                             alt="hero image"
                             className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
-                            width={300}
-                            height={300}
+                            width={348}
+                            height={348}
                         />
                     </div>
                 </motion.div>

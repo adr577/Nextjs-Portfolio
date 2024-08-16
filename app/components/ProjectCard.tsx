@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link"
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./3d-card";
 import { FaCode } from "react-icons/fa";
@@ -11,10 +12,11 @@ interface ProjectCardProps {
     des: string;
     repo: string;
     icons: React.ElementType[];
+    src: string;
 }
 
 
-export const ProjectCard: React.FC<ProjectCardProps> = ({title, img, des, repo, icons}) => {
+export const ProjectCard: React.FC<ProjectCardProps> = ({title, img, des, repo, icons, src}) => {
     return (
         <CardContainer className="inter-var">
             <CardBody className="bg-stone-800 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[25rem] h-auto rounded-xl p-6 border">
@@ -37,7 +39,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({title, img, des, repo, 
                     rotateZ={-10}
                     className="w-full mt-4"
                 >
-                    <a href={repo} target="_blank">
+                    <Link href={src} target="_blank">
                         <Image
                         src={img}
                         height="500"
@@ -45,7 +47,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({title, img, des, repo, 
                         className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl cursor-pointer"
                         alt="thumbnail"
                         />
-                    </a>
+                    </Link>
                 </CardItem>
                 <div className="flex justify-between items-center mt-20">
                     <CardItem
