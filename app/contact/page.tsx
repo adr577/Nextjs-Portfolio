@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaLinkedin, FaDiscord } from "react-icons/fa";
-import ContactForm from "../components/ContactForm"
+import ContactForm from "../components/ContactSection"
 
 const ContactPage = () => {
   return (
