@@ -73,7 +73,7 @@ const AboutSection = () => {
         <section className="text-stone-200 mb-24 ">
             <div className='md:grid md:grid-cols-2 gap-8  py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 rounded-lg m-h-screen text-center'>
                 <div className=''>
-                    <Image src="/images/self-portrait2.jpg"
+                    <Image src="/images/self-portrait2.JPG"
                         alt="self"
                         width={256}
                         height={256}
