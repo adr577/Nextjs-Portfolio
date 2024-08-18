@@ -19,12 +19,12 @@ const ContactSection = () => {
                       <span className='bg-clip-text text-transparent bg-gradient-to-r from-[#00F260] to-[#0575E6]'>Connect</span>
                   </h2>
                   <span className='flex gap-x-6 mb-2'>
-                      <Link href={"www.linkedin.com/in/adrianhernandez577"} target='_blank'><FaLinkedin size={30} className='cursor-pointer' /></Link>
+                      <Link href={"https://www.linkedin.com/in/adrianhernandez577"} target='_blank'><FaLinkedin size={30} /></Link>
                       <FaDiscord size={30} className='cursor-pointer' />
                       <Link href={"https://github.com/adr577"} target='_blank'><FaGithub size={30} /></Link>
 
                   </span>
-                  <p className='text-md md:text-lg '>
+                  <p className='text-md md:text-lg w-full sm:w-4/6 leading-7'>
                       I&apos;m always excited to connect with other students, developers, and creatives who are passionate about tech and innovation.
                       Whether you have a cool project idea, need help with coding,
                       or just want to brainstorm ideas, I&apos;m open to collaborating and learning together.
