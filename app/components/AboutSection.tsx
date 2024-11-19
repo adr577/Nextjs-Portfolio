@@ -26,10 +26,11 @@ const TAB_DATA = [
         id: "experience",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Intern in Software Development(Bay Valley Tech)</li>
-                <li>Undergrad student graphic designer(UC Merced)</li>
+                <li>Student in Software Development(Bay Valley Tech)</li>
+                <li>Undergrad student web designer(UC Merced)</li>
                 <li>Raleys Merced</li>
                 <li>Nasa space apps member</li>
+                
 
             </ul>
         )
@@ -44,8 +45,8 @@ const TAB_DATA = [
                 <li>
                     <p className='font-bold mr-1'>Relevant coursework:</p>
                     <span className='font-normal'>
-                        Data Structures, Advanced Programming(C++),
-                        Discrete math, Multivariable calculus, Linear algebra & diff equations, classical physics I & II 
+                        Data Structures, probability, 
+                        Discrete math, Multivariable calculus, Linear algebra & diff equations, algorithm designs
                     </span>
 
                 </li>
