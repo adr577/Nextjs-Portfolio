@@ -41,7 +41,7 @@ export const Hero = () => {
                         />
 
                     </h1>
-                    <p className='text-lg lg:text-xl mb-6 text-wrap'>21 year old junior software engineer {" "} and javascript enthusiast</p>
+                    <p className='text-lg lg:text-xl mb-6 text-wrap'>21 year old future software engineer {" "} and JavaScript enthusiast</p>
 
                   <div className='text-stone-100'>
                       <Link
