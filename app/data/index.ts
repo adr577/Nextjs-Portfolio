@@ -1,6 +1,8 @@
-import { SiC, SiJavascript, SiHtml5, SiCss3, SiReact, SiXcode, SiSwift, SiApple, SiVercel } from "react-icons/si";
+import { SiC, SiJavascript, SiHtml5, SiCss3, SiReact, SiXcode, SiSwift, SiApple, SiVercel, SiMongodb, SiFirebase, SiCplusplus } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
+import { VscTerminalPowershell } from "react-icons/vsc";
+
 
 
 export const projects = [
@@ -54,13 +56,39 @@ export const projects = [
     {
         id: 6, 
         title: "Next.js Portfolio (This website)",
-        img: "/images/portfolio-nextjs.png",
+        img: "/images/psnptf1.png",
         des: "Used page routing, state, effect, and certain disclosed plug ins. This is still an active project, so I will be contributing more components.",
         icons: [RiNextjsFill, SiVercel],
         link: "",
         src:""
         
+    },
+    {
+        id: 7,
+        title: "CSE 100 Labs",
+        img: "/images/cse_100.png",
+        des: "Labs done in CSE 100 (Algorithm Design & Analysis) in Fall 2024",
+        icons: [SiCplusplus, VscTerminalPowershell],
+        link: "https://github.com/adr577/CSE_100",
+        src: "https://github.com/adr577/CSE_100"
+
+    },
+    {
+        id: 8,
+        title: "Bobcat Search App",
+        img: "/images/bobcat-search (1).png",
+        des: "A full-stack web application using Next.js & Mongodb setting up an authenticated and client interactive app for CSE students to view and search key details on courses in their degree path.",
+        icons: [RiNextjsFill, SiMongodb, SiFirebase],
+        link: "/",
+        src: "/"
+
     }
 ]
 
+
+export const skills = [
+    {
+
+    },
+]
 

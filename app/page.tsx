@@ -4,6 +4,8 @@ import  AboutSection  from './components/AboutSection'
 import ProjectsSection from './components/ProjectsSection'
 import Navbar from './components/Navbar'
 import Certificates from "./components/Certificates";
+import { CertificatesSection } from "./components/CertificatesSection"
+
 export default function Home() {
   return (
     
@@ -11,7 +13,7 @@ export default function Home() {
         <Hero />
         <AboutSection />
         <ProjectsSection />
-        <Certificates />
+        <CertificatesSection />
 
         
       </main>

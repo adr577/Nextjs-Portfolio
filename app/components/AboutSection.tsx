@@ -15,8 +15,8 @@ const TAB_DATA = [
                 <li>HTML/CSS</li>
                 <li>Tailwind</li>
                 <li>JavaScript</li>
-                <li>C++</li>
                 <li>Assembly</li>
+                <>Algorithm Design & Analysis(C++)</>
             </ul>
         )
     },
