@@ -23,7 +23,7 @@ export const projects = [
         des: "Aka New Again is accessible to anyone with a desire to improve learn new habits over time. From students to professors.",
         icons: [SiSwift, SiXcode, SiApple],
         link: "https://github.com/adr577/New-Again",
-        src:""
+        src:"https://imgur.com/gallery/update-final-project-7EODQHc"
     },
     {
         id: 3, 
@@ -60,7 +60,7 @@ export const projects = [
         des: "Used page routing, state, effect, and certain disclosed plug ins. This is still an active project, so I will be contributing more components.",
         icons: [RiNextjsFill, SiVercel],
         link: "",
-        src:""
+        src:"/"
         
     },
     {
@@ -76,13 +76,13 @@ export const projects = [
     {
         id: 8,
         title: "Bobcat Search App",
-        img: "/images/bobcat-search (1).png",
+        img: "/images/bobcat_search.png",
         des: "A full-stack web application using Next.js & Mongodb setting up an authenticated and client interactive app for CSE students to view and search key details on courses in their degree path.",
         icons: [RiNextjsFill, SiMongodb, SiFirebase],
         link: "/",
         src: "/"
 
-    }
+    },
 ]
 
 

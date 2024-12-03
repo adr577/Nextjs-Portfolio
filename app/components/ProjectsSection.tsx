@@ -20,7 +20,7 @@ const ProjectsSection = () => {
             </div>
               
             <div className='w-full flex items-center justify-center flex-wrap gap-x-6'>
-                  {projects.map((project) => (
+                  {projects.slice().sort((a, b) => b.id - a.id).map((project) => (
                       <ProjectCard
                           key={project.id}
                           title={project.title}
@@ -29,9 +29,7 @@ const ProjectsSection = () => {
                           repo={project.link}
                           icons={project.icons}
                           src={project.src}
-                           
-                      
-
+                                              
                       />
 
                   ))}
